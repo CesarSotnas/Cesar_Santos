@@ -1,0 +1,62 @@
+/* NavBar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, .0);
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 0.4rem 1rem 0.1rem 1rem;
+    transition: 0.3s ease;
+}
+
+/* Menu do lado esquerdo */
+.navbar.active {
+    background: rgba(0, 0, 0, 0.9);
+    transition: 0.3s ease;
+}
+
+.navbar img {
+    width: 2vw;
+    height: 5vh;
+    padding-right: 0.5rem;
+    padding-left: 0.8rem;
+    transition: 0.3s ease-in-out;
+}
+
+.nome {
+    padding-left: 0;
+    margin-left: 0;
+    transition: 0.3s ease-in-out;
+}
+
+.logo-e-nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+/* Menu do lado direito */
+.navbar ul {
+    display: flex;
+    gap: 2rem;
+    list-style-type: none;
+    padding-right: 2.7rem;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.navbar a {
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+.links:hover {
+    background-color: #f0f0f0;
+    color: rgba(0, 0, 0, 0.9);
+    border-radius: 4vw;
+    padding: 0.3rem;
+    transition: 0.3s ease-in-out;
+}
