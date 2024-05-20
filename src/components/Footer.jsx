@@ -1,12 +1,18 @@
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaKaggle } from "react-icons/fa";
+import { Link } from 'react-router-dom'
 import './css/Footer.css'
 
 const Footer = () => {
   return (
     <div className='footer-container'>
-        <p>Cesar Santos</p>   
-        <p>21 984029951</p>
-        <p>devcarlos.cesar@gmail.com</p>
-
+        <section className="links-logos-footer">
+            <Link to = 'https://www.linkedin.com/in/cesar--santos/' target='_blank'><FaLinkedin size={50}/></Link>
+            <Link to = 'https://github.com/CesarSotnas' target='_blank'><FaGithub size={50}/></Link>
+            <Link to = 'https://www.kaggle.com/devcesar' target='_blank'><FaKaggle size={50}/></Link>
+        </section>
+        <p>&copy; 2024 - Cesar Santos</p>
     </div>
   )
 }

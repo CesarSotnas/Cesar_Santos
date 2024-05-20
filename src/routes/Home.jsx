@@ -2,6 +2,7 @@ import imgPerfil from '../assets/imgPerfil.jpeg'
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaKaggle } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 import './css/Home.css'
 
 const Home = () => {
@@ -13,9 +14,9 @@ const Home = () => {
           <div className="img-perfil-logos">
             <img className='img-perfil' src={imgPerfil} alt="Foto de peril" />
             <section className="links-logos">
-              <FaLinkedin size={50}/>
-              <FaGithub size={50}/>
-              <FaKaggle size={50}/>
+              <Link to = 'https://www.linkedin.com/in/cesar--santos/' target='_blank'><FaLinkedin size={50}/></Link>
+              <Link to = 'https://github.com/CesarSotnas' target='_blank'><FaGithub size={50}/></Link>
+              <Link to = 'https://www.kaggle.com/devcesar' target='_blank'><FaKaggle size={50}/></Link>
             </section>
           </div>
           <section className="texto-descricao">
