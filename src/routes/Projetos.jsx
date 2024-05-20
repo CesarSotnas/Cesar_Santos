@@ -1,36 +1,40 @@
+import Card from '../components/Card'
+import { Link } from 'react-router-dom'
+import './css/Projetos.css'
+
 const Projetos = () => {
   return (
     <div className='home-container'>
       <div className='img-empreendedor'>
-        
       </div>
-      <div className="intro-container">
-          <h3>PROJETOS</h3>
-          <section className="texto-descricao">
-            <p>
-              Olá, me chamo Cesar Santos, Empreendedor Digital.<br /><br />
-            </p>
-
-            <p>
-              Profissional com mais de 7 anos de experiência na área suporte em T.I, decidi seguir carreira na área de programação e 
-              análise de dados depois de perceber que já utilizava todo o processo de ELT, automações em Python e Javascript no meu dia a dia.
-            </p> <br />
-            <p>
-              Formado em Sistemas para Internet pela Estácio, tenho conhecimento no desenvolvimento de sites e no momento estou  cursando uma Pós-Graduação em Ciência de Dados e Inteligência Artificial pela UNINTER.
-              Soft Skills:<br /><br />                                                    
-              Pró-atividade | Pensamento analítico | Curioso<br /><br />
-              Hard Skills:<br />
-
-              Javascript | Python | SQL | Power BI | ETL | Excel | Google Sheets<br /><br />
-
-
-              Habilidades em desenvolvimento:<br />
-
-              Estatística e probabilidade | Power BI (DAX e linguagem M) 
-            </p>
-          </section>
+      <h2>Principais projetos:</h2>
+      <div className="tabela-cards">
+        <div className="cards">
+          <Link to='https://app.powerbi.com/view?r=eyJrIjoiMDllZmNkOTMtOGYxOC00NGI1LWI1NjEtOWEzY2EwN2QzOGVlIiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img ='https://lh3.googleusercontent.com/1FajdVEDdLRTZzrfvMJgCQ0iyL2b324lFAbfIHZmXg5ptonFFY7KMD4I3SENK_e1FrhDBs08YEo75jrxpXTpfNQl4D5ojVvbBm7mrGew3gAokTguazaL27H_sxl1GZtSrw=w1280' /></ Link>
+          <p>Análise de Dados - Dashboard - Base de vendas, loja de lubrificantes.</p>
         </div>
+        <div className="cards">
+          <Link to='https://app.powerbi.com/view?r=eyJrIjoiYTliNjdiNjMtM2IzNC00NDk1LTkyMDgtMTZmOGE2YzM5OGRmIiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img ='https://lh4.googleusercontent.com/3E1wuAtJCAwlRz2q3Pw4UCopLJXAFCBMJmo8S_Kh3iGu1tadbqyLlkkLeqfs7vVzmrhR_yMFvXC5An2OOfxrGBhxz1GTUthR7T64PLZPKq19PR-ytl56nPt63ZQM888SEQ=w1280' /></Link>
+        <p>Análise de Dados - Dashboard - Segmentos e receitas durante 2022</p>
+        </div>
+        <div className="cards">
+          <Link to='https://app.powerbi.com/view?r=eyJrIjoiNWE5YzI3MWEtYmU4Zi00MGZlLWIzNmUtYTU3ZTQ1NTMxMmU0IiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img ='https://lh6.googleusercontent.com/y40iDK1EJQc0FrqHIZmcsUcxuH6QGnIOuId6WMm-MWEul5E4bdxMyaOiUZMSz-dYwZuobhgkZC2x4DeR3uvoJ6oV6iRZuU7lhF-RLScJkm0rXxV3xTKENDhP-e5Wgz02NA=w1280' /></Link>
+          <p>Análise de Dados - Dashboard - Materiais de papelaria.</p>
+        </div>
+        <div className="cards"> 
+          <Link to='https://app.powerbi.com/view?r=eyJrIjoiMzVlYWYzMTktMzEyOS00ZTE4LTg5OTAtNmUwZTUwOTc3ZDNhIiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img ='https://lh4.googleusercontent.com/CrNhQ_2R9Ajy_39FiTPB688Xs1Rmb5agfXWUULiA0eB1jxzvROV5XXDZOxg_7Nnn5tInhqxzojpKdf1ajujYPV_TSRJGx7tExLuaUJ9VUTdvwBZAMnPEE5J3fBhoHziLlg=w1280' /></Link>
+          <p>Análise de Dados - Dashboard - Análise descritiva, marketing digital.</p>
+        </div>
+        <div className="cards">
+          <Link to='https://www.kaggle.com/code/devcesar/projeto-analise-de-dados' target='_blank'><Card img ='https://lh6.googleusercontent.com/Wt-I0dHgWFc2TnDba4mSdXfxP8RvN1jI6QWJ6si4kqMvjQSz42SuVQO-YwkR1OcngyWhU-uKx0E2jiGVc-Nz37hEn8r1xBmHdNyDMZXUFAQeYQdmXeSuvicgjsKAjBvWoA=w1280' /></ Link>
+          <p>Notebook - Análise de dados de clientes de banco.</p>
+        </div>
+        <div className="cards">  
+          <Link to='https://github.com/CesarSotnas/CesarSotnas-ExercicioPlotagemPython/blob/main/modulo_6_tarefa_3.ipynb' target='_blank'><Card img ='https://lh5.googleusercontent.com/NVi_T-JpKrYXGu2pkgFgVe2hxfYgiRc8dIiY45XZBxtWoG0qEI6pT87svZbfAdxIr_eUMsQ-z3XHNku1AKYbBvEVFmbB9cD5B6M5PKsgZK4yFEuvcA89oIeizPNul-8geA=w1280' /></ Link>
+          <p>Notebook - Tratamento base de dados Sinasc_2019 - Rondônia.</p>
+        </div>            
       </div>
+    </div>
   )
 }
 

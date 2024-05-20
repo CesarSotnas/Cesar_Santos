@@ -1,0 +1,32 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-container h2 {
+    align-self: center;
+    padding-top: 1rem;
+}
+
+.tabela-cards {
+    display: flex;
+    flex-flow: wrap;
+    padding-left: 8rem;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column; 
+    padding: 2rem;
+}
+
+.cards p {
+    align-self: center;
+}
+
+.cards a {
+    opacity: 1;
+    color: black;
+}
+
+
