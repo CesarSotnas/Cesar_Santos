@@ -37,10 +37,8 @@ const Home = () => {
               Hard Skills:<br />
               Javascript | Python | SQL | Power BI | ETL | Excel | Google Sheets<br /><br />
 
-
               Habilidades em desenvolvimento:<br />
-
-              Estatística e probabilidade | Power BI (DAX e linguagem M) 
+              ReactJS | Power BI (DAX e linguagem M) 
             </p>
           </section>
         </div>

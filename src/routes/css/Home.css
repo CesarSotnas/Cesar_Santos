@@ -8,6 +8,9 @@
     margin-left: 20vw;
 }
 
+p {
+    color: rgb(51, 50, 50);
+}
 .img-empreendedor {
     background-image: url('../../assets/Empreendedor.png');
     background-attachment: fixed;
