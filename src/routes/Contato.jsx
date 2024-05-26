@@ -11,15 +11,15 @@ const Contato = () => {
         <form action="" className='contato-formulario'>
             <h3>Contato:</h3>
           <div className='contato-formulario-div'>
-            <label htmlFor="nome">Nome</label> <br />
+            <label htmlFor="nome">Nome:</label> <br />
             <input type="text" required=""/>
           </div>
           <div className='contato-formulario-div'>
-            <label htmlFor="telefone">Telefone</label> <br />
+            <label htmlFor="telefone">Telefone:</label> <br />
             <input type="text" />
           </div>
           <div className='contato-formulario-div'>
-            <label htmlFor="email">E-mail</label> <br />
+            <label htmlFor="email">E-mail:</label> <br />
             <input type="text" />
           </div>
           <div className='contato-formulario-div'>

@@ -19,7 +19,8 @@ h3 {
     height: 30rem;
     margin-left: 0;
     padding-left: 0;
-    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-top: 8rem;
 }
 
 .contato-formulario-div {
@@ -27,9 +28,7 @@ h3 {
     border-radius: 10px;
     margin: 1rem;
     justify-content: end;
-    padding-left: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
 }
 
 .contato-formulario-div input {
@@ -57,6 +56,7 @@ h3 {
 .contato-formulario-div label {
     font-size: 100%;
     color: rgb(100, 100, 100);
+    display: flex;
 }
 
 .contato-formulario-div textarea {
@@ -64,12 +64,13 @@ h3 {
     height: 8rem;
     margin-right: 0;
     padding-right: 1rem;
+    outline: 0;
     border: 2px solid rgb(200, 200, 200);
     transition: 0.3 ease-in-out;
 }
 
 .contato-formulario-div textarea:hover {
-    border-bottom: 2px solid rgb(240, 53, 28);
+    border: 2px solid rgb(240, 53, 28);
     transition: 0.3s ease-in-out;
 } 
 
@@ -86,4 +87,9 @@ h3 {
 #input-submit:hover {
     transition: 0.3s ease-in-out;
     color: rgb(226, 0, 0);
+}
+
+
+@media  screen and (max-width: 768px) {
+    
 }

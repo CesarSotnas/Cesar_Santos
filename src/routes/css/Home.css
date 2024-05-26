@@ -65,3 +65,60 @@ p {
 }
 
 
+/* Responsvidade */
+/* Celular */
+@media screen and (max-width: 768px) {
+    .home-container {
+        width: auto;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .img-empreendedor {
+        background-position: 50% 65%;
+        background-size: 400%;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .intro-container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 0;
+        gap: 1rem;
+    }
+    .texto-descricao {
+        width: auto;
+        height: auto;
+
+    }
+
+    /* Imagem Perfil e Logos */
+    .img-perfil-logos {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    /* Imagem Perfil */
+    .img-perfil {
+        display: flex;
+        width: 10rem;
+        height: auto;
+        margin: auto;
+        padding-top: 1rem;
+        border-radius: 100rem;
+    }
+
+    /* Logos */
+    .links-logos {
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+    }
+}
