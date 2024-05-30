@@ -7,7 +7,7 @@ const NavBar = () => {
   const [navBar, setNavbar] = useState(false)
 
   const changeBackground = () => {
-    if(window.scrollY >= 100) {
+    if((window.scrollY >= 100) && (window.innerWidth > 796)) {
         setNavbar(true)
     } else {
         setNavbar(false)
@@ -22,7 +22,20 @@ const NavBar = () => {
             <Link to={'/'}><img src={logoWhite} alt="Logo com a letra C" /></Link>
             <Link to={'/'} className="nome links">Cesar Santos</Link>
         </div>
-        <ul>
+
+        <ul className="mobile-links-list">
+            <li className="mobile-links">
+                <Link to={'/'} className="mobile-links">Home</Link>
+            </li>
+            <li className="mobile-links">
+                <Link to={'/projetos'} className="mobile-links">Projetos</Link>
+            </li>
+            <li className="mobile-links">
+                <Link to={'/contato'} className="mobile-links">Contato</Link>
+            </li>
+        </ul>
+
+        <ul className="desktop-links">
             <li>
                 <Link to={'/'} className="links">Home</Link>
             </li>
@@ -34,7 +47,7 @@ const NavBar = () => {
             </li>
         </ul>
 
-    </nav>
+      </nav>
   )
 }
 

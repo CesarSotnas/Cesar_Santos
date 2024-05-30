@@ -18,12 +18,12 @@
     transition: 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 982px) {
     .footer-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: rgba(10, 10, 10, .8);
+        background: rgba(10, 10, 10, .8);  
     }
 }

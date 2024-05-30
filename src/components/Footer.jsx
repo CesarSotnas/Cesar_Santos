@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <div className='footer-container'>
         <section className="links-logos-footer">
-            <Link to = 'https://www.linkedin.com/in/cesar--santos/' target='_blank'><FaLinkedin size={50}/></Link>
-            <Link to = 'https://github.com/CesarSotnas' target='_blank'><FaGithub size={50}/></Link>
-            <Link to = 'https://www.kaggle.com/devcesar' target='_blank'><FaKaggle size={50}/></Link>
+            <Link to = 'https://www.linkedin.com/in/cesar--santos/' target='_blank' className="links-logos-footer-a"><FaLinkedin size={50}/></Link>
+            <Link to = 'https://github.com/CesarSotnas' target='_blank' className="links-logos-footer-a"><FaGithub size={50}/></Link>
+            <Link to = 'https://www.kaggle.com/devcesar' target='_blank' className="links-logos-footer-a"><FaKaggle size={50}/></Link>
         </section>
         <p>&copy; 2024 - Cesar Santos</p>
     </div>
