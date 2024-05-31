@@ -8,7 +8,7 @@ import dash4 from '../assets/dash4.jpeg'
 
 const Projetos = () => {
   return (
-    <div className='home-container'>
+    <div className='projeto-container'>
       <div className='img-empreendedor'>
       </div>
       <h2>Principais projetos:</h2>

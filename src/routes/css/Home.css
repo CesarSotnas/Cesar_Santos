@@ -8,6 +8,11 @@
     margin-left: 20vw;
 }
 
+.home-container {
+    display: flex;
+    flex-direction: column;
+}
+
 p {
     color: rgb(51, 50, 50);
 }
@@ -68,21 +73,13 @@ p {
 
 /* Responsvidade */
 /* Celular */
-@media screen and (max-width: 768px) {
-    .home-container {
-        width: auto;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
+@media screen and (max-width: 761px) {
     .img-empreendedor {
-        background-position: 50% 65%;
-        background-size: 400%;
-        width: 100%;
-        height: 80vh;
+        display: block;
+        background-position: 52% 0%;
+        background-size: 300%;
+        width: auto;
+        height: 60vh;
     }
 
     .intro-container {
@@ -98,72 +95,6 @@ p {
         height: auto;
         padding-left: 1.5rem;
         padding-top: 0;
-    }
-
-    /* Imagem Perfil e Logos */
-    .img-perfil-logos {
-        width: 100%;
-        height: auto;
-        margin: 0;
-    }
-
-    /* Imagem Perfil */
-    .img-perfil {
-        display: flex;
-        width: 10rem;
-        height: auto;
-        margin: auto;
-        padding-top: 1rem;
-        border-radius: 100rem;
-    }
-
-    /* Logos */
-    .links-logos {
-        align-items: center;
-        justify-content: center;
-        width: auto;
-        height: auto;
-        padding-top: 1rem;
-    }
-}
-
-/* Tablet */
-@media screen and (max-width: 982px) {
-    .home-container {
-        width: auto;
-        height: auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-
-    }
-
-    .img-empreendedor {
-        background-position: 50% 65%;
-        background-size: 200%;
-        width: 100%;
-        height: 80vh;
-    }
-
-    .intro-container {
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        margin: 0;
-        gap: 1rem;
-    }
-
-    .texto-descricao {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: auto;
-        height: auto;
-        padding: 0;
-        margin: 0;
-        padding-left: 9rem;
-        padding-right: 9rem;
     }
 
     /* Imagem Perfil e Logos */

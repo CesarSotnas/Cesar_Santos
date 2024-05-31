@@ -70,7 +70,7 @@
 /* Responsividade */
 
 /* Celular */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 761px) {
     .desktop-links, .logo-e-nome {
         display: none;
     }
@@ -80,16 +80,9 @@
         flex-direction: column;
         background-color: red;
     }
-}
-
-
-/* Tablet */
-@media screen and (max-width: 982px) {
-    .mobile-links, .mobile-link-lists {
-        display: none;
-    }
-
     .navbar {
-        padding-bottom: 0.5rem;
+        position: relative;
+        width: auto;
+        padding-left: 2rem;
     }
 }
