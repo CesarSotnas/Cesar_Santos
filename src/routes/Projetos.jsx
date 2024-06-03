@@ -15,20 +15,20 @@ const Projetos = () => {
       <div className="tabela-cards">
         <div className="cards">
           <Link to='https://app.powerbi.com/view?r=eyJrIjoiMDllZmNkOTMtOGYxOC00NGI1LWI1NjEtOWEzY2EwN2QzOGVlIiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img = {dash1} /></ Link>
-          <p>Análise de Dados - Dashboard - Base de vendas, loja de lubrificantes.</p>
+          <p className="texto-cards">Análise de Dados - Dashboard - Base de vendas, loja de lubrificantes.</p>
         </div>
         <div className="cards">
           <Link to='https://app.powerbi.com/view?r=eyJrIjoiYTliNjdiNjMtM2IzNC00NDk1LTkyMDgtMTZmOGE2YzM5OGRmIiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img = {dash2}/></Link>
-        <p>Análise de Dados - Dashboard - Segmentos e receitas durante 2022</p>
+        <p className="texto-cards">Análise de Dados - Dashboard - Segmentos e receitas durante 2022</p>
         </div>
         <div className="cards">
           <Link to='https://app.powerbi.com/view?r=eyJrIjoiNWE5YzI3MWEtYmU4Zi00MGZlLWIzNmUtYTU3ZTQ1NTMxMmU0IiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img = {dash3} /></Link>
-          <p>Análise de Dados - Dashboard - Materiais de papelaria.</p>
+          <p className="texto-cards">Análise de Dados - Dashboard - Materiais de papelaria.</p>
         </div>
         <div className="cards"> 
           <Link to='https://app.powerbi.com/view?r=eyJrIjoiMzVlYWYzMTktMzEyOS00ZTE4LTg5OTAtNmUwZTUwOTc3ZDNhIiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img = {dash4} /></Link>
-          <p>Análise de Dados - Dashboard - Análise descritiva, marketing digital.</p>
-        </div>        
+          <p className="texto-cards">Análise de Dados - Dashboard - Análise descritiva, marketing digital.</p>
+        </div>         
       </div>
     </div>
   )

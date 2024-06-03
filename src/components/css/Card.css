@@ -1,4 +1,21 @@
-.Card-container img {
-    width: 15rem;
+.projetos-card {
+    width: 30rem;
     height: auto;
+    padding: 1rem;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 996px) {
+    .projetos-card {
+        width: 22rem;
+        height: auto;
+    }
+
+    .Card-container {
+        display: flex;
+        justify-content: center;
+        
+    }
 }

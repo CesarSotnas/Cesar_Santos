@@ -81,7 +81,7 @@
         background-color: red;
     }
     .navbar {
-        position: relative;
+        /* position: relative; */
         width: auto;
         padding-left: 2rem;
     }
