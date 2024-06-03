@@ -96,10 +96,27 @@ h3 {
 }
 
 
-@media  screen and (max-width: 996) {
-    .home-container {
-        display: flex;
-        flex-direction: column;
+@media  screen and (max-width: 769px) {
+    .formulario img {
+        display: none;
     }
-    
+
+    .contato-formulario {
+        width: 100vw;
+        height: auto;
+    }
+
+    .contato-formulario-div {
+        width: auto;
+        height: auto;
+    }
+
+    .contato-formulario-div input, .contato-formulario-div textarea {
+        width: 80vw;
+        height: auto;
+    }
+
+    #input-submit:hover {
+        transition: none;
+    }
 }

@@ -47,13 +47,6 @@
     padding-right: 4rem;
 }
 
-.mobile-links, .mobile-link-lists {
-    display: none;
-    margin: 0;
-    padding: 0;
-    justify-content: flex-start;
-}
-
 .navbar a {
     text-decoration: none;
     transition: 0.3s ease-in-out;
@@ -70,19 +63,29 @@
 /* Responsividade */
 
 /* Celular */
-@media screen and (max-width: 761px) {
-    .desktop-links, .logo-e-nome {
+@media screen and (max-width: 996px) {
+    .logo-e-nome {
         display: none;
     }
-    
-    .mobile-links, .mobile-link-lists {
-        display: flex;
-        flex-direction: column;
-        background-color: red;
-    }
+
     .navbar {
-        /* position: relative; */
-        width: auto;
-        padding-left: 2rem;
+        padding-left: 0;
+        padding-bottom: 0.3rem;
+    }
+
+    .desktop-links {
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        padding: 0;
+    }
+
+    .links:hover {
+        color: rgba(0, 0, 0, 0.9);
+        border-radius: none;
+        background-color: #f0f0f0;
+        padding: 0.2rem;
+        text-decoration: none;
     }
 }
+

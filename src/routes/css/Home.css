@@ -72,13 +72,11 @@ p {
 }
 
 
-/* Responsvidade */
-/* Celular */
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 767px) {
     .img-empreendedor {
         display: block;
-        background-position: 50% 76%;
-        background-size: auto;
+        background-position: 50% -10%;
+        background-size: 300%;
         width: auto;
         height: 60vh;
     }
@@ -122,5 +120,15 @@ p {
         width: auto;
         height: auto;
         padding-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 996px) {
+    .img-empreendedor {
+        display: block;
+        background-position: 50% 190%;
+        background-size: 300%;
+        width: auto;
+        height: 60vh;
     }
 }

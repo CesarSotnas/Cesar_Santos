@@ -34,9 +34,12 @@
 
 @media screen and (max-width: 996px) {
     .tabela-cards {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      width: 100vw;
+      height: auto;
+      padding: 0;
+      margin-left: 0;
+      display: grid;
+      grid-template-columns: 20rem;
     }
 
     .cards {
@@ -47,3 +50,4 @@
         padding-bottom: 1rem;
     }
 }
+

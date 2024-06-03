@@ -3,7 +3,7 @@
     height: auto;
 }
 
-@media screen and (max-width: 761px) {
+@media screen and (max-width: 996px) {
     .app-container {
         width: auto;
         height: auto;
