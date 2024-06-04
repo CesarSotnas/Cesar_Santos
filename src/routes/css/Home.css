@@ -71,7 +71,6 @@ p {
     padding: 1rem;
 }
 
-
 @media screen and (max-width: 767px) {
     .img-empreendedor {
         display: block;
@@ -121,14 +120,63 @@ p {
         height: auto;
         padding-top: 1rem;
     }
+ 
+    .links-logos a:hover {
+        transform: none;
+    }
 }
 
 @media screen and (max-width: 996px) {
     .img-empreendedor {
         display: block;
-        background-position: 50% 190%;
-        background-size: 300%;
+        background-position: 50% 90%;
+        background-size: auto;
         width: auto;
-        height: 60vh;
+        height: 50vh;
+    }
+
+    .intro-container {
+        flex-direction: column;
+        width: auto;
+        height: auto;
+        margin: 0;
+        gap: 1rem;
+    }
+
+    .texto-descricao {
+        width: auto;
+        height: auto;
+        padding-left: 1.5rem;
+        padding-top: 0;
+    }
+
+    /* Imagem Perfil e Logos */
+    .img-perfil-logos {
+        width: 100%;
+        height: auto;
+        margin: 0;
+    }
+
+    /* Imagem Perfil */
+    .img-perfil {
+        display: flex;
+        width: 10rem;
+        height: auto;
+        margin: auto;
+        padding-top: 1rem;
+        border-radius: 100rem;
+    }
+
+    /* Logos */
+    .links-logos {
+        align-items: center;
+        justify-content: center;
+        width: auto;
+        height: auto;
+        padding-top: 1rem;
+    }
+
+    .links-logos a:hover {
+        transform: none;
     }
 }

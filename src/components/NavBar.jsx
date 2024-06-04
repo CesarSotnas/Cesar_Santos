@@ -1,7 +1,7 @@
-import { useState } from "react"
-import { Link } from "react-router-dom"
 import logoWhite from '../assets/logo-white.png'
-import './css/NavBar.css'
+import { Link } from "react-router-dom"
+import { useState } from "react"
+import './css/NavBar.css';
 
 const NavBar = () => {
   const [navBar, setNavbar] = useState(false)

@@ -26,8 +26,10 @@ const Contato = () => {
             <label htmlFor="">Como posso ajudar? </label> <br />
             <textarea name="" id=""></textarea>
           </div>
-          <input id='input-submit' type="reset" />
-          <input id='input-submit' type="submit" />
+          <div className='submit-container'>
+            <input id='input-submit' type="reset" />
+            <input id='input-submit' type="submit" />
+          </div>
         </form>
       </div>
     </div>

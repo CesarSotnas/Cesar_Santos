@@ -11,7 +11,7 @@ const Projetos = () => {
     <div className='projeto-container'>
       <div className='img-empreendedor'>
       </div>
-      <h2>Principais projetos:</h2>
+      <h2 name="projetos">Principais projetos:</h2>
       <div className="tabela-cards">
         <div className="cards">
           <Link to='https://app.powerbi.com/view?r=eyJrIjoiMDllZmNkOTMtOGYxOC00NGI1LWI1NjEtOWEzY2EwN2QzOGVlIiwidCI6IjU4YzZmNTFiLWJiOGEtNDhkYi1hZDQ1LTVlMDg0YzFjOTgzOCJ9' target='_blank'><Card img = {dash1} /></ Link>
