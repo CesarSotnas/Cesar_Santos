@@ -95,7 +95,7 @@ h3 {
     color: rgb(226, 0, 0);
 }
 
-
+/* Responsividade */
 @media  screen and (max-width: 996px) {
     .formulario img {
         display: none;
@@ -116,11 +116,15 @@ h3 {
     }
 
     #input-submit {
-        flex-direction: row;      
+        flex-direction: row;   
     }
 
+    .contato-formulario-div input:hover {
+        width: 67vw;
+    }
+    
 
-    .contato-formulario-div input, .contato-formulario-div textarea {
+    .contato-formulario-div input, .contato-formulario-div input:hover, .contato-formulario-div textarea, .contato-formulario-div textarea:hover  {
         width: 67vw;
         height: auto;
         transition: none;

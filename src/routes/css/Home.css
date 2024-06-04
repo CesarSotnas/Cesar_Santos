@@ -71,7 +71,7 @@ p {
     padding: 1rem;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 996px) {
     .img-empreendedor {
         display: block;
         background-position: 50% -10%;
@@ -126,11 +126,11 @@ p {
     }
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 415px) {
     .img-empreendedor {
         display: block;
-        background-position: 50% 90%;
-        background-size: auto;
+        background-position: 50% 192%;
+        background-size: 300%;
         width: auto;
         height: 50vh;
     }
