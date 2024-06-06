@@ -1,0 +1,14 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 30rem;
+    align-items: center;  
+}
+
+
+
+p {
+    color: rgb(51, 50, 50);
+}

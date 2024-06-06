@@ -24,7 +24,7 @@ const Home = () => {
               Olá, me chamo Cesar Santos, Empreendedor Digital.<br /><br />
             </p>
             <p>
-              Profissional com mais de 7 anos de experiência na área suporte em T.I, decidi seguir carreira na área de programação e  
+              Com mais de 7 anos de experiência na área suporte em T.I, decidi seguir carreira na área de programação e  
               análise de dados depois de perceber que já utilizava todo o processo de ELT, automações em Python e Javascript no meu dia a dia.
             </p> <br />
             <p>

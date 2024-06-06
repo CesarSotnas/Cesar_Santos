@@ -28,10 +28,10 @@ const NavBar = () => {
                 <Link to={'/'} className="links">Home</Link>
             </li>
             <li>
-                <Link to={'/projetos'} className="links">Projetos</Link>
+                <Link to={'projetos'} className="links">Projetos</Link>
             </li>
             <li>
-                <Link to={'/contato'} className="links">Contato</Link>
+                <Link to={'contato'} className="links">Contato</Link>
             </li>
         </ul>
 
