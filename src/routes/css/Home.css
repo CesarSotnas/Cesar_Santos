@@ -126,10 +126,11 @@ p {
     }
 }
 
+
 @media screen and (max-width: 415px) {
     .img-empreendedor {
         display: block;
-        background-position: 50% 192%;
+        background-position: 50% 195%;
         background-size: 300%;
         width: auto;
         height: 50vh;
@@ -180,3 +181,14 @@ p {
         transform: none;
     }
 }
+
+@media screen and (max-width: 376px) {
+    .img-empreendedor {
+        display: block;
+        background-position: 50% 230%;
+        background-size: 300%;
+        width: auto;
+        height: 50vh;
+    }
+}
+

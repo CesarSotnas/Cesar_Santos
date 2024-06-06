@@ -124,10 +124,15 @@ h3 {
     }
     
 
-    .contato-formulario-div input, .contato-formulario-div input:hover, .contato-formulario-div textarea, .contato-formulario-div textarea:hover  {
+    .contato-formulario-div input, .contato-formulario-div input:hover {
         width: 67vw;
         height: auto;
         transition: none;
+    }
+
+    .contato-formulario-div textarea, .contato-formulario-div textarea:hover {
+        transition: none;
+        width: 66vw;
     }
 
     #input-submit:hover {
