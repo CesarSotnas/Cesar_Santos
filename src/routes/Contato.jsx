@@ -6,7 +6,7 @@ const Contato = () => {
     <div className='home-container'>
       <div className='img-empreendedor'>
       </div>
-      <div className="formulario">
+      <div className="formulario" id="contato-id">
         <img src={cartaoVisita} alt="" />
         <form action="" className='contato-formulario'>
             <h3>Contato:</h3>

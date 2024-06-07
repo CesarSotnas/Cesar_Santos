@@ -71,7 +71,7 @@ p {
     padding: 1rem;
 }
 
-@media screen and (max-width: 996px) {
+@media screen and (max-width: 767px) {
     .img-empreendedor {
         display: block;
         background-position: 50% -10%;
@@ -127,15 +127,7 @@ p {
 }
 
 
-@media screen and (max-width: 415px) {
-    .img-empreendedor {
-        display: block;
-        background-position: 50% 195%;
-        background-size: 300%;
-        width: auto;
-        height: 50vh;
-    }
-
+@media screen and (max-width: 820px) {
     .intro-container {
         flex-direction: column;
         width: auto;
@@ -176,19 +168,19 @@ p {
         height: auto;
         padding-top: 1rem;
     }
-
+ 
     .links-logos a:hover {
         transform: none;
     }
 }
 
-@media screen and (max-width: 376px) {
+
+@media screen and (width: 540px) {
     .img-empreendedor {
         display: block;
-        background-position: 50% 230%;
+        background-position: 50% 190%;
         background-size: 300%;
         width: auto;
-        height: 50vh;
+        height: 60vh;
     }
 }
-

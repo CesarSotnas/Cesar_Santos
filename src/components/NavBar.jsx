@@ -1,5 +1,6 @@
 import logoWhite from '../assets/logo-white.png'
-import { Link } from "react-router-dom"
+import { HashLink as Link } from 'react-router-hash-link';
+/* import { Link } from "react-router-dom" */
 import { useState } from "react"
 import './css/NavBar.css';
 
@@ -19,19 +20,19 @@ const NavBar = () => {
   return (
     <nav className={navBar ? "navbar active" : "navbar"}>
         <div className="logo-e-nome">
-            <Link to={'/'}><img src={logoWhite} alt="Logo com a letra C" /></Link>
-            <Link to={'/'} className="nome links">Cesar Santos</Link>
+            <Link to='/#home-id'><img src={logoWhite} alt="Logo com a letra C" /></Link>
+            <Link to='/#home-id' className="nome links">Cesar Santos</Link>
         </div>
 
         <ul className="desktop-links">
             <li>
-                <Link to={'/'} className="links">Home</Link>
+                <Link to='/' className="links">Home</Link>
             </li>
             <li>
-                <Link to={'projetos'} className="links">Projetos</Link>
+                <Link to='projetos#projetos-id' className="links">Projetos</Link>
             </li>
             <li>
-                <Link to={'contato'} className="links">Contato</Link>
+                <Link to='contato#contato-id' className="links">Contato</Link>
             </li>
         </ul>
 

@@ -8,7 +8,7 @@ import './css/Home.css'
 const Home = () => {
   return (
     <div className='home-container'>
-      <div className='img-empreendedor'>
+      <div className='img-empreendedor' id='home-id'>
       </div>
       <div className="intro-container">
           <div className="img-perfil-logos">

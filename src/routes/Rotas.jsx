@@ -14,9 +14,9 @@ const Rotas = () => {
             <NavBar />
             <Routes>
                 <Route path='/' element={<Home />} />
-                <Route path='/projetos' element={<Projeto />}/>
-                <Route path='/contato' element={<Contato />}/>
-                <Route path='' element={<ErrorPage />}/>
+                <Route path='projetos' element={<Projeto />}/>
+                <Route path='contato' element={<Contato />}/>
+                <Route path='*' element={<ErrorPage />}/>
             </Routes>
             <Footer />
         </BrowserRouter>
