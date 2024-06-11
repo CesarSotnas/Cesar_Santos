@@ -12,19 +12,19 @@ const Contato = () => {
             <h3>Contato:</h3>
           <div className='contato-formulario-div'>
             <label htmlFor="nome">Nome:</label> <br />
-            <input type="text" required=""/>
+            <input type="text" name="nome" required=""/>
           </div>
           <div className='contato-formulario-div'>
             <label htmlFor="telefone">Telefone:</label> <br />
-            <input type="text" />
+            <input type="text" name="telefone" />
           </div>
           <div className='contato-formulario-div'>
             <label htmlFor="email">E-mail:</label> <br />
-            <input type="text" />
+            <input type="text" name="email" />
           </div>
           <div className='contato-formulario-div'>
             <label htmlFor="">Como posso ajudar? </label> <br />
-            <textarea name="" id=""></textarea>
+            <textarea name="textarea" id=""></textarea>
           </div>
           <div className='submit-container'>
             <input id='input-submit' type="reset" />
