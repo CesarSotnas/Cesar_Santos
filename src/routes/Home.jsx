@@ -28,9 +28,8 @@ const Home = () => {
               análise de dados depois de perceber que já utilizava todo o processo de ELT, automações em Python e Javascript no meu dia a dia.
             </p> <br />
             <p>
-              Formado em Sistemas para Internet pela Estácio, Pós Graduado em Ciência de Dados, no momento estou fazendo um  <br />
-              Bacharelado em Sistemas de Informação pela Uninter.<br /><br /> 
-
+              Formado em Sistemas para Internet pela Estácio, Pós Graduado em Ciência de Dados, no momento estou fazendo um Bacharelado em Sistemas de Informação pela Uninter. <br /> <br />
+              
               Soft Skills:<br />                                                   
               Pró-atividade | Pensamento analítico | Curioso<br /><br />
 
